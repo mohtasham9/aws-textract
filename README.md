@@ -35,12 +35,20 @@ https://github.com/mohtasham9/aws-textract/assets/77109645/f41714c3-1ea0-4e95-ac
    - **Tables**: Extracted tables are processed into pandas DataFrames for easy manipulation and display.
    - **Key-Value Pairs**: Key-value pairs are extracted and displayed as a dictionary.
    - **Dates**: Dates found in the text lines are extracted and displayed.
+6. **Key Functions and Methods**:
+   - `extract_text_from_pdf()`: Initiates PDF text extraction using AWS Textract.
+   - `extract_text_from_image()`: Extracts text from images using AWS Textract.
+   - `upload_to_s3()`: Uploads files to Amazon S3 bucket.
+7. **Code Structure**:
+   - `main.py`: Contains Streamlit frontend logic and handles AWS interactions (Textract, S3).
+   - `config.py`: Stores AWS credentials and configurations.   - 
 
-## User Interaction
-1. **File Upload**: Users can upload their documents via a simple file uploader.
-2. **Processing Feedback**: The application provides feedback during processing, indicating whether the document is being analyzed or if an error has occurred.
-3. **Results Display**: Once processing is complete, users can view the extracted text, tables, key-value pairs, and dates directly in the browser.
-4. **Save Functionality**: Users can save the extracted data to a text file with a single click.
+## 5. User Guide
+- **Deployment Instructions**: Clone the repository, install dependencies, configure AWS credentials in `config.py`, and run `streamlit run main.py`.
+- **Usage**: 
+  - Upload PDF or image files via the Streamlit interface.
+  - View extracted tables, key-value pairs, and extracted text.
+  - Save extracted data to a local file.
 
 ## Conclusion
-This AWS Textract Data Extraction application showcases the integration of cloud services with a web interface to automate and simplify the extraction of structured data from documents. It demonstrates practical use of AWS Textract for document analysis, provides robust error handling, and ensures data is presented in a user-friendly manner. This project exemplifies the power of combining AWS services with Python-based web development for efficient and effective data processing solutions.
+This AWS Textract Data Extraction application showcases the integration of cloud services with a web interface to automate and simplify the extraction of structured data from documents. It demonstrates the practical use of AWS Textract for document analysis, provides robust error handling, and ensures data is presented in a user-friendly manner. This project exemplifies the power of combining AWS services with Python-based web development for efficient and effective data processing solutions.
