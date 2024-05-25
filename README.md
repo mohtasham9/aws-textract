@@ -43,7 +43,7 @@ https://github.com/mohtasham9/aws-textract/assets/77109645/f41714c3-1ea0-4e95-ac
    - `main.py`: Contains Streamlit frontend logic and handles AWS interactions (Textract, S3).
    - `config.py`: Stores AWS credentials and configurations.   - 
 
-## 5. User Guide
+## User Guide
 - **Deployment Instructions**: Clone the repository, install dependencies, configure AWS credentials in `config.py`, and run `streamlit run main.py`.
 - **Usage**: 
   - Upload PDF or image files via the Streamlit interface.
