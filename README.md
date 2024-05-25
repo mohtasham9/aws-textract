@@ -3,6 +3,12 @@
 ## Overview
 This project involves creating a web application using Streamlit and AWS Textract to extract text, tables, key-value pairs, and dates from documents. The application supports both PDFs and image files (PNG, JPG, JPEG) and provides a user-friendly interface for uploading documents, processing them, and viewing the extracted information.
 
+
+
+https://github.com/mohtasham9/aws-textract/assets/77109645/f41714c3-1ea0-4e95-ac80-e09244bdfa06
+
+
+
 ## Key Features
 1. **Document Upload**: Users can upload PDF or image files through a file uploader widget.
 2. **S3 Integration**: Uploaded files are temporarily stored in an S3 bucket for processing.
